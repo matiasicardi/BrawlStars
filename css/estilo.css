@@ -94,6 +94,10 @@ a{
     -webkit-text-stroke-color: black
 }
 
+form{
+    margin: 20px;
+}
+
 footer{
     color: whitesmoke;
     margin: 35px;
