@@ -54,6 +54,7 @@ h3{
 p{
     margin: 15px;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 .textoGaleria{
@@ -76,6 +77,19 @@ span{
     padding: 15px;
 }
 
+.modos{
+    border-radius: 5px;
+    border: thin;
+    border-style: solid;
+    border-color: rgb(221,7,7);
+    margin: 15px;
+    padding: 15px;
+}
+
+.modos ul li{
+    list-style-type: none;
+}
+
 nav{
     text-align: center;
     font-family: Nougat;
@@ -92,6 +106,19 @@ a{
     text-decoration: none;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black
+}
+
+a:hover{
+    scale: 1.1;
+}
+
+.PERSONAJES{
+    margin: 55px;
+    display: flex;
+}
+
+.imagenes{
+    width: 150px;
 }
 
 form{
